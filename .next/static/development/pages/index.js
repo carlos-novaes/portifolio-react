@@ -61,10 +61,10 @@ var _jsxFileName = "/home/carlos/CodingStuff/portfolio-dependencies/pages/index.
 
 
 var Index = function Index() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 1
+      lineNumber: 2
     },
     __self: this
   }, "Welcome Page!");
