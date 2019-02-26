@@ -3,8 +3,13 @@ import Link from "next/link";
 
 export default class Header extends Component {
   render() {
+    debugger;
+    const title = this.props.title;
+
     return (
       <Fragment>
+        <p>{title}</p>
+        {this.props.children}
         <Link href="/">
           <a> Home </a>
         </Link>

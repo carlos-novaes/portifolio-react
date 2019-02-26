@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import Header from "../components/shared/Header";
+import BaseLayout from "../components/layouts/BaseLayout";
 
 export default class Blogs extends Component {
   render() {
     return (
-      <Fragment>
+      <BaseLayout>
         <h1>I am Blogs Page</h1>
-        <Header />
-      </Fragment>
+      </BaseLayout>
     );
   }
 }
