@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from "react";
 import Link from "next/link";
 
+import "../../styles/main.scss";
+
 export default class Header extends Component {
   render() {
     debugger;
@@ -8,8 +10,7 @@ export default class Header extends Component {
 
     return (
       <Fragment>
-        <p>{title}</p>
-        {this.props.children}
+        <p className="customClassFromFile">test</p>
         <Link href="/">
           <a> Home </a>
         </Link>
@@ -25,6 +26,13 @@ export default class Header extends Component {
         <Link href="/cv">
           <a> CV </a>
         </Link>
+        <style jsx>
+          {`
+            a {
+              font-size: 20px;
+            }
+          `}
+        </style>
       </Fragment>
     );
   }
