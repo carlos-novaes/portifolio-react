@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import Header from "../shared/Header";
+import React, { Fragment } from 'react';
+import Header from '../shared/Header';
 
 const BaseLayout = props => {
   return (
